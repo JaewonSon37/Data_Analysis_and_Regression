@@ -13,6 +13,7 @@ hist(housing$median_income)
 hist(housing$housing_median_age, breaks = 20)
 
 cor(housing[, 3:9])
+
 cor(housing[,3:9], use = "complete.obs")
 
 plot(housing$housing_median_age, housing$median_house_value)
